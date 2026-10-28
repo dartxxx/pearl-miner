@@ -1,0 +1,13 @@
+.git
+out
+host/target
+native/target
+target
+native/pearl-gemm/csrc/capi/build
+native/pearl-gemm/csrc/capi/build-win
+native/pearl-gemm/third_party/cutlass
+my_kernel
+**/*.log
+**/*.err
+**/*.pid
+**/*.ncu-rep*
