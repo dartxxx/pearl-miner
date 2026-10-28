@@ -1,0 +1,33 @@
+# Compilación
+/out/
+/out-*/
+host/target/
+native/target/
+target/
+native/pearl-gemm/csrc/capi/build/
+native/pearl-gemm/csrc/capi/build-win/
+**/*.o
+**/*.obj
+**/*.dll
+**/*.so
+**/*.lib
+**/*.exp
+
+# Logs y artefactos de pruebas
+*.log
+*.err
+*.pid
+*.ncu-rep*
+bench_*
+/my_kernel/
+
+# Editores / sistema operativo
+.vs/
+.vscode/
+.idea/
+*.user
+*.swp
+.DS_Store
+Thumbs.db
+
+# CUTLASS es submódulo (ver .gitmodules); no se vendoriza.
